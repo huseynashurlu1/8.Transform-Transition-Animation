@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: url(https://w7.pngwing.com/pngs/613/635/png-transparent-sky-blue-sky-blue-cloud-sky-blue-photography-atmosphere.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body{
+    overflow-x: hidden;
+} */
+
+/* .demo{
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: .5s;
+}
+
+.demo:hover{
+    transform: rotateY(90deg);
+} */
+
+
+/* .all{
+    display: flex;
+    padding: 30px 5rem;
+    justify-content: space-between;
+}
+
+.box{
+    width: 30%;
+    overflow: hidden;
+}
+
+.box img{
+    width: 100%;
+    transition: .6s;
+    vertical-align: bottom;
+    transform: scale(1.6) rotate(-45deg)
+}
+
+.box:hover img{
+    transform: scale(1) rotate(0deg);
+    filter: grayscale(1);
+} */
+
+/* #first{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background-color 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#first:hover{
+    background-color: black;
+    border-radius: 100%;
+} */
+
+/* .cloud{
+    position: absolute;
+    right: -130%;
+    top: 0;
+    filter: grayscale(0);
+    animation: cloud 40s linear infinite ;
+}
+
+@keyframes cloud {
+    from{
+        top: 0;
+        right: -130%;
+        filter: brightness(1)
+    }
+    to{
+        top: 0;
+        filter: brightness(0.2);
+        right: 100%;
+    }
+} */
+
+/* .demo{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+
+.bg{
+    width: 32%;
+    background-color: #1D2024;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.text{
+    transition: .5s;
+}
+
+.bg i,p{
+    color: #fff;
+}
+
+.arrow{
+    /* opacity: 0; */
+    /* transition: .5s;
+}
+
+p{
+    margin: 15px 0;
+}
+
+/* .bg:hover .text{
+    transform: translateY(-10px);
+} */
+
+
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.box{
+    width: 30%;
+    position: relative;
+    transition: .5s;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+
+.box:hover .img1{
+    transform: scale(1.2);
+    filter: blur(2px);
+}
+
+.box img{
+    width: 100%;
+}
